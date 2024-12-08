@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "score", "order": "desc" },
+        { "fieldPath": "createdAt", "order": "desc" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
